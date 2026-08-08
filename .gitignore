@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+
+# FACED data
+Data/
+Processed_data/
+Processed_Data/
+EEG_Features/
+ratings/
+fake/
+fake*/
+FACED/
+
+# Generated results and model files
+results/
+outputs/
+checkpoints/
+*.npz
+*.npy
+*.pkl
+*.mat
+*.h5
+*.keras
+*.pt
+*.pth
+
+# Local configuration
+.env
+.env.*
