@@ -1,0 +1,13 @@
+# Exact versions this package was tested against, on Python 3.11.15.
+# For a permissive install use `pip install -e .` and the extras declared in
+# pyproject.toml instead; this file is for reproducing the tested environment.
+
+# --- core: faced/ imports these at module level ------------------------------
+numpy==2.4.4
+scipy==1.17.1
+scikit-learn==1.8.0
+
+# --- optional, imported inside the function that needs them ------------------
+mne==1.12.1              # features.montage_positions
+openpyxl==3.1.5          # data.load_rating_layout, data.load_electrodes
+tensorflow-cpu==2.21.0   # models.CNN  (use `tensorflow` if you have a GPU)

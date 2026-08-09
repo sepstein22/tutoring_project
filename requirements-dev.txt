@@ -1,0 +1,7 @@
+# Everything in requirements.txt, plus what the tests, figures and deck need.
+-r requirements.txt
+
+pytest==9.1.1            # tests/
+matplotlib==3.10.9       # make_figures.py, run_all.py plots
+synapseclient==4.13.0    # fetch_faced.py
+
